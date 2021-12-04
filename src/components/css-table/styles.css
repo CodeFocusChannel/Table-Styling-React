@@ -1,0 +1,34 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.thead {
+    position: sticky;
+    z-index: 100;
+}
+
+.trHead {
+    background: var(--bg);
+}
+
+.th {
+    padding: var(--sm-spacing);
+    color: var(--text);
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.trBody {
+    background: var(--white);
+}
+
+.td {
+    padding: var(--sm-spacing);
+    border: 1px solid var(--bg2);
+    font-size: 14px;
+}
